@@ -69,7 +69,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    'https://771b-198-44-138-170.ngrok-free.app',
+    'https://edulearn-lvqr.onrender.com',
 
 ]
 
@@ -205,7 +205,7 @@ DOMAIN=config('DOMAIN')
 DOMAIN_REMOTE=config('DOMAIN_REMOTE')
 
 
-FRONTEND_URL = config('FRONTEND_URL', default='http://localhost:5173')
+FRONTEND_URL = config('FRONTEND_URL', default='https://edulearn-lvqr.onrender.com')
 PAYPAL_TEST = True
 # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
