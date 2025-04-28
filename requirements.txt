@@ -17,7 +17,6 @@ djangorestframework_simplejwt==5.4.0
 djoser==2.3.1
 gunicorn==23.0.0
 idna==3.10
-jazzmin==3.0.1
 mysqlclient==2.2.7
 oauthlib==3.2.2
 packaging==25.0
