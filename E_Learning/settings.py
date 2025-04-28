@@ -19,7 +19,7 @@ SECRET_KEY = 'django-insecure--c&l*$==owsoz%q!5zh3r&idk(fqbu(malyd@2+x4yt9sy8@u_
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://771b-198-44-138-170.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['https://edulearn-lvqr.onrender.com']
 
 
 # Application definition
@@ -98,26 +98,23 @@ WSGI_APPLICATION = 'E_Learning.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'e_learning',
-        'USER': 'root',
-        'PASSWORD': 'MOMJERRYT@DE',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'e_learning',
+#         'USER': 'root',
+#         'PASSWORD': 'MOMJERRYT@DE',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+
+#     }
+# }
 
 
 # Password validation
