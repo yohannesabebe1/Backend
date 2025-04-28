@@ -25,7 +25,7 @@ CSRF_TRUSTED_ORIGINS = ['https://771b-198-44-138-170.ngrok-free.app']
 # Application definition
 
 INSTALLED_APPS = [
-    # 'jazzmin',
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -106,15 +106,15 @@ WSGI_APPLICATION = 'E_Learning.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.mysql',
-        # 'NAME': 'e_learning',
-        # 'USER': 'root',
-        # 'PASSWORD': 'MOMJERRYT@DE',
-        # 'HOST': 'localhost',
-        # 'PORT': '3306',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'e_learning',
+        'USER': 'root',
+        'PASSWORD': 'MOMJERRYT@DE',
+        'HOST': 'localhost',
+        'PORT': '3306',
         
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
 
     }
 }
